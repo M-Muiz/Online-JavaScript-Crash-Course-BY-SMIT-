@@ -1,0 +1,74 @@
+@font-face {
+  font-family: navbar;
+  src: url(../Fonts/PlayfairDisplay-Regular.ttf);
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+.main-container {
+  width: 90%;
+  height: 100%;
+  margin: 2% auto;
+  border-radius: 8px;
+  background-color: bisque;
+}
+.hading {
+  text-align: center;
+  color: black;
+  font-weight: bold;
+  font-size: 50px;
+  padding-top: 25px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.title {
+  font-size: 25px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.one {
+  display: flex;
+  justify-content: space-evenly;
+}
+.two {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+.one select {
+  width: 300px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+#btn {
+  width: 180px;
+  height: 45px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+#btn:hover {
+  color: #fff;
+  background-color: black;
+  cursor: pointer;
+}
+.last {
+  display: flex;
+  margin-top: 05%;
+  padding: 25px;
+  justify-content: space-evenly;
+}
+.list {
+  width: 350px;
+  height: 750px;
+  border: 1px solid black;
+  margin-left: 8px;
+  border-radius: 20px;
+}
+#show {
+  width: 990px;
+  height: 750px;
+  border: 1px solid black;
+  margin-left: 60px;
+  border-radius: 8px;
+}
